@@ -1,0 +1,10 @@
+Shell scripts to control /etc/hosts
+Require notifywait
+
+How it works:
+1 - one 'daemon' waits modifications in /etc/.hosts/hosts-enabled
+2 - when modify dir content 'update host' are called putting all stored in /etc/.hosts/hosts-enabled into /etc/hosts
+
+
+You can use addhosts.sh to link some file listed in /etc/.hosts/hosts-available to /etc/.hosts/hosts-enabled
+You can use rmhosts.sh to rm some file in /etc/.hosts/hosts-enabled/
