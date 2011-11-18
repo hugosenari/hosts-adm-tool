@@ -8,3 +8,8 @@ How it works:
 
 You can use addhosts.sh to link some file listed in /etc/.hosts/hosts-available to /etc/.hosts/hosts-enabled
 You can use rmhosts.sh to rm some file in /etc/.hosts/hosts-enabled/
+
+
+#TODO:
+Create daemon
+	hostsdaemon.sh created to work like one, but need to be daemonized :D
